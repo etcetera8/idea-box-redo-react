@@ -1,9 +1,12 @@
+$allWidth: 300px;
+$fontColor: #6d6e71;
 
 
 .Card {
   margin: 0 auto;
   border-bottom: 1px solid gray;
-  width: 250px;
+  width: $allWidth;
+  color: $fontColor;
 }
 
 .delete-button {

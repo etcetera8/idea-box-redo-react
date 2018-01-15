@@ -1,4 +1,5 @@
-$allWidth: 150px;
+$allWidth: 300px;
+$fontColor: #6d6e71;
 
 .inputs {
   margin: 0 auto;
@@ -9,7 +10,7 @@ $allWidth: 150px;
 input {
   width: $allWidth;
   display: block;
-  margin: 15px;
+  margin-bottom: 15px;
 }
 
 button {
@@ -17,5 +18,6 @@ button {
   background-color: #00A79D;
   color: #fff;
   margin: 0 auto;
+  margin-bottom: 25px;
 }
 
