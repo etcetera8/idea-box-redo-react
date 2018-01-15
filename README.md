@@ -1,4 +1,4 @@
-# React Starter Kit
+This is a personal project and test where I'm redoing a project I previously made in Vanilla JS. The goal is to get all functionality the same using react.
 
 To install the dependencies:
 
