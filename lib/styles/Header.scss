@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+$color: #E8F4F4;
+$fontColor: #00A79D;
+
+.Header {
+  background: $color;
+  font-family: 'Istok Web', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: $fontColor;
+  margin: 0 auto;
+}
+
+.target {
+  color: #6D6E71;
+}
+
+.red {
+  color: #f44b4b;
+}
