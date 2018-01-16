@@ -1,7 +1,6 @@
 $allWidth: 300px;
 $fontColor: #6d6e71;
 
-
 .Card {
   margin: 0 auto;
   border-bottom: 1px solid gray;
@@ -12,4 +11,25 @@ $fontColor: #6d6e71;
 .delete-button {
   float: right;
   clear: left;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.vote {
+  #upvote {
+    margin-right: 10px;
+  }
+
+  #upvote:hover, 
+  #downvote:hover {
+    color: green;
+    cursor: pointer;
+  }
+
+  #downvote {
+    margin-right: 10px;
+  }
 }
