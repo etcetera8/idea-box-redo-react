@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 
 $color: #E8F4F4;
 $fontColor: #00A79D;
@@ -19,5 +20,9 @@ h1 {
 }
 
 .red {
+  font-size: .7em;
+  margin-left: 2px;
+  font-family: 'Bangers', cursive;
+  text-decoration: underline;
   color: #f44b4b;
 }
