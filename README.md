@@ -2,6 +2,8 @@ This is a personal project and test where I'm redoing a project I previously mad
 The goal is to get all functionality the same except this time exceptionally well refactored React. 
 I'm also using this toy project as a first attempt at SASS for all of the styling.
 
+[GH Pages](https://etcetera8.github.io/idea-box-redo-react/)
+
 To install the dependencies:
 
 ```
