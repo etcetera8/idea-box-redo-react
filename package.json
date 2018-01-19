@@ -7,12 +7,14 @@
     "start": "webpack-dev-server",
     "build": "./node_modules/webpack/bin/webpack.js",
     "test": "jest",
-    "eslint": "./node_modules/eslint/bin/eslint.js ./lib/*.js"
+    "eslint": "./node_modules/eslint/bin/eslint.js ./lib/*.js",
+    "deploy" : "npm run build&&gh-pages -d build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/turingschool-examples/react-starter-kit.git"
   },
+
   "jest": {
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
@@ -24,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/turingschool-examples/react-starter-kit/issues"
   },
-  "homepage": "https://github.com/turingschool-examples/react-starter-kit",
+  "homepage": "https://github.com/etcetera8/idea-box-redo-react",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.24.1",
@@ -44,6 +46,7 @@
     "eslint-plugin-jsx-a11y": "^1.2.2",
     "eslint-plugin-react": "^5.1.1",
     "file-loader": "^0.11.2",
+    "gh-pages": "^1.1.0",
     "jest": "^20.0.4",
     "mocha": "^2.4.5",
     "mocha-loader": "^0.7.1",
