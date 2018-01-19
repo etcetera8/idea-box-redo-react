@@ -1,4 +1,5 @@
-$allWidth: 300px;
+$allWidth: 450px;
+$allHeight: 25px;
 $fontColor: #6d6e71;
 
 .inputs {
@@ -7,17 +8,31 @@ $fontColor: #6d6e71;
   flex-direction: column;
 }
 
+input::placeholder {
+  font-size: 1.6em;
+  color: #939598;
+}
+
 input {
   width: $allWidth;
+  height: $allHeight;
   display: block;
   margin-bottom: 15px;
 }
 
 button {
   width: $allWidth;
+  height: $allHeight;
   background-color: #00A79D;
   color: #fff;
   margin: 0 auto;
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 465px) {
+  input, button {
+    width: 335px;
+  }
+
 }
 

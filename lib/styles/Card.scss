@@ -1,4 +1,4 @@
-$allWidth: 300px;
+$allWidth: 450px;
 $fontColor: #6d6e71;
 
 .Card {
@@ -32,4 +32,11 @@ $fontColor: #6d6e71;
   #downvote {
     margin-right: 10px;
   }
+}
+
+@media screen and (max-width: 465px) {
+  .Card {
+    width: 335px;
+  }
+
 }
